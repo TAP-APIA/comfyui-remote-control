@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ComfyUI 远程控制</string>
+    <string name="action_settings">设置</string>
+    <string name="first_fragment_label">任务控制</string>
+    <string name="second_fragment_label">历史记录</string>
+    <string name="next">下一步</string>
+    <string name="previous">上一步</string>
+
+    <string name="server_address">服务器地址 (例如: http://192.168.1.100:8188)</string>
+    <string name="connect">连接</string>
+    <string name="submit_task">提交任务</string>
+    <string name="progress_status">状态: 未连接</string>
+    <string name="prompt_label">提示词 (Prompt)</string>
+
+    <string name="select_workflow">选择工作流 JSON</string>
+    <string name="no_workflow">未选择工作流</string>
+    <string name="duration_label">时长 (秒)</string>
+    <string name="steps_label">步数</string>
+    <string name="width_label">宽度</string>
+    <string name="height_label">高度</string>
+    <string name="running_tasks">正在运行的任务</string>
+    <string name="queue_empty">队列为空</string>
+    <string name="add_device">添加设备</string>
+    <string name="devices_title">设备列表</string>
+    <string name="management">管理</string>
+    <string name="history_soon">历史记录功能即将推出</string>
+</resources>

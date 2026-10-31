@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_devices_parent"
+        android:title="@string/devices_title">
+        <menu>
+            <!-- 动态设备列表将显示在这里 -->
+        </menu>
+    </item>
+
+    <item android:title="@string/management">
+        <menu>
+            <item
+                android:id="@+id/nav_add_device"
+                android:icon="@android:drawable/ic_menu_add"
+                android:title="@string/add_device" />
+            <item
+                android:id="@+id/nav_manage_devices"
+                android:icon="@android:drawable/ic_menu_delete"
+                android:title="移除设备" />
+        </menu>
+    </item>
+
+</menu>
